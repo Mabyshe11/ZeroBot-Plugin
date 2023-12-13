@@ -16,7 +16,6 @@ import (
 
 	"github.com/FloatTech/ZeroBot-Plugin/kanban" // 打印 banner
 
-
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/antiabuse" // 违禁词
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat" // 基础词库
@@ -29,7 +28,6 @@ import (
 
 	_ "github.com/FloatTech/zbputils/job" // 定时指令触发器
 
-	
 	"github.com/FloatTech/floatbox/process"
 	"github.com/sirupsen/logrus"
 	zero "github.com/wdvxdr1123/ZeroBot"
@@ -94,7 +92,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	 sus = append(sus, 1525217721)
+	sus = append(sus, 1525217721)
 	// sus = append(sus, 87654321)
 
 	// 启用 webui
